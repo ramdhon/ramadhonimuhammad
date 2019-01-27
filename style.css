@@ -1,0 +1,231 @@
+body {
+    margin:0;
+    padding:0;
+    font-family: Arial;
+    /* overflow: hidden; */
+}
+
+p, h1, header, footer {
+    text-align: center;
+}
+
+.imp {
+    font-weight: bold;
+    color: rgb(138, 83, 58);
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.underline {
+    text-decoration: underline;
+}
+.content-subHeader {
+    width: 55%;
+    margin: 0 auto;
+    padding: 16px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(138, 83, 58);
+    border-radius: 5px;
+}
+.content-text {
+    width: 50%;
+    margin: 0px auto;
+    padding: 22px;
+    /* background-color: rgba(138, 83, 58, 0.2); */
+    font-size: 18px;
+    color: rgba(48,48,48,1);
+}
+
+.font22 {
+    font-size: 22px;
+}
+
+.container {
+    width: 75%;
+    margin: 0 auto;
+    /* background-color: rgba(192,192,192,1);  */
+}
+
+.overlay-gradient {
+    background-image: linear-gradient(rgba(48,48,48,0), rgba(48,48,48,1));
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+    position: relative;
+}
+
+.bg-header {
+    background-image: url("./images/hayasophia.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+    position: relative;
+}
+
+.content-header {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgba(255,255,255,0.6);
+    font-size: 90px;
+    font-weight: bold;
+    letter-spacing: 10px;
+}
+
+.bg-footer {
+    background-color: rgba(48,48,48,1);
+    background-size: cover;
+    background-position: center;
+    height: 75px;
+    width: 100%;
+    position: relative;
+}
+
+.content-footer {
+    position: absolute;
+    width: 60%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgba(255,255,255,0.6);
+    font-weight: bold;
+}
+
+.bg-blank {
+    background-color: rgba(255,255,255,1);
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    width: 100%;
+    position: relative;
+}
+
+.bg-subBlank {
+    background-color: rgba(255,255,255,1);
+    background-size: cover;
+    background-position: center;
+    height: 20px;
+    width: 100%;
+    position: relative;
+}
+
+.bg-nav {
+    background-color: rgba(48,48,48,1);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    position: relative;
+}
+
+.bg-nav ul{
+    list-style-type: none;
+    text-align: right;
+    margin: 0;
+    padding-right: 30px;
+    overflow: hidden;
+}
+.bg-nav li {
+    display: inline-block;
+    padding: 16px;
+    font-size: 24px;
+}
+.bg-nav li a {
+    text-align: center;
+    color: rgba(255,255,255,0.6);
+    text-decoration: none;  
+}
+.bg-nav li a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* images */
+.gallery, .contact{
+    text-align: center;
+}
+
+.gal-setting {
+    background-size: cover;
+    width: 30%;
+    height: 150px;
+    /* float: left; */
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.gal-ataturk {
+    background-image: url("./images/ataturk.jpeg");
+    background-position: top;
+}
+
+.gal-boat {
+    background-image: url("./images/boat.jpeg");
+    background-position: center;
+}
+
+.gal-bosphorus {
+    background-image: url("./images/bosphorus.jpeg");
+    background-position: center;
+}
+
+.gal-camii {
+    background-image: url("./images/camii.jpeg");
+    background-position: center;
+}
+
+.gal-cat {
+    background-image: url("./images/cat.jpeg");
+    background-position: center;
+}
+
+.gal-turkish {
+    background-image: url("./images/turkish.jpg");
+    background-position: center;
+}
+
+.gal-ortakoy {
+    background-image: url("./images/ortakoy.jpeg");
+    background-position: center;
+}
+
+.gal-food3 {
+    background-image: url("./images/food3.jpeg");
+    background-position: center;
+}
+
+.gal-pamukkale {
+    background-image: url("./images/pamukkale.jpeg");
+    background-position: center;
+}
+/* ----- */
+
+/* contacts */
+
+.cnt {
+    width: 30%;
+    height: 200px;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    border: 3px solid rgb(138, 83, 58);
+    border-radius: 5px; 
+    position: relative;
+}
+
+.cnt img {
+    height: 125px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/* ----- */
