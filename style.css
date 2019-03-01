@@ -30,20 +30,20 @@ p, h1, header, footer {
     border-radius: 5px;
 }
 .content-text {
-    width: 50%;
+    max-width: 590px;
     margin: 0px auto;
     padding: 22px;
     /* background-color: rgba(138, 83, 58, 0.2); */
-    font-size: 18px;
+    font-size: 20px;
     color: rgba(48,48,48,1);
 }
 
 .font22 {
-    font-size: 22px;
+    font-size: 24px;
 }
 
 .container {
-    width: 75%;
+    max-width: 890px;
     margin: 0 auto;
     /* background-color: rgba(192,192,192,1);  */
 }
